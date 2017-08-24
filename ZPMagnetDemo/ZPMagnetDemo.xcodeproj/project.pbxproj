@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4368BFAA1F4E8C8F00B1A0FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368BFA91F4E8C8F00B1A0FF /* main.m */; };
+		4368BFAD1F4E8C8F00B1A0FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368BFAC1F4E8C8F00B1A0FF /* AppDelegate.m */; };
+		4368BFB01F4E8C8F00B1A0FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368BFAF1F4E8C8F00B1A0FF /* ViewController.m */; };
+		4368BFB31F4E8C8F00B1A0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4368BFB11F4E8C8F00B1A0FF /* Main.storyboard */; };
+		4368BFB51F4E8C8F00B1A0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4368BFB41F4E8C8F00B1A0FF /* Assets.xcassets */; };
+		4368BFB81F4E8C8F00B1A0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4368BFB61F4E8C8F00B1A0FF /* LaunchScreen.storyboard */; };
+		4368BFC21F4E8CBE00B1A0FF /* ZPMagnetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368BFC11F4E8CBE00B1A0FF /* ZPMagnetItem.m */; };
+		4368BFC51F4E934D00B1A0FF /* ZPMagnetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4368BFC41F4E934D00B1A0FF /* ZPMagnetView.m */; };
+		7B4908C1EAD01572D2DB801D /* libPods-ZPMagnetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AE29E1AADC7925C73A328F /* libPods-ZPMagnetDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4CD1F7124EA64721D94111 /* Pods-ZPMagnetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMagnetDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMagnetDemo/Pods-ZPMagnetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4368BFA51F4E8C8F00B1A0FF /* ZPMagnetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPMagnetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4368BFA91F4E8C8F00B1A0FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4368BFAB1F4E8C8F00B1A0FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4368BFAC1F4E8C8F00B1A0FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4368BFAE1F4E8C8F00B1A0FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4368BFAF1F4E8C8F00B1A0FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4368BFB21F4E8C8F00B1A0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4368BFB41F4E8C8F00B1A0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4368BFB71F4E8C8F00B1A0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4368BFB91F4E8C8F00B1A0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4368BFC01F4E8CBE00B1A0FF /* ZPMagnetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMagnetItem.h; sourceTree = "<group>"; };
+		4368BFC11F4E8CBE00B1A0FF /* ZPMagnetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMagnetItem.m; sourceTree = "<group>"; };
+		4368BFC31F4E934D00B1A0FF /* ZPMagnetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMagnetView.h; sourceTree = "<group>"; };
+		4368BFC41F4E934D00B1A0FF /* ZPMagnetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMagnetView.m; sourceTree = "<group>"; };
+		B0AE29E1AADC7925C73A328F /* libPods-ZPMagnetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPMagnetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44D6C85C4B5F194A84B68E6 /* Pods-ZPMagnetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMagnetDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMagnetDemo/Pods-ZPMagnetDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4368BFA21F4E8C8F00B1A0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4908C1EAD01572D2DB801D /* libPods-ZPMagnetDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4368BF9C1F4E8C8F00B1A0FF = {
+			isa = PBXGroup;
+			children = (
+				4368BFA71F4E8C8F00B1A0FF /* ZPMagnetDemo */,
+				4368BFA61F4E8C8F00B1A0FF /* Products */,
+				8A80792F3299450F3838B232 /* Pods */,
+				6FD54DC5402CDCA14572B6A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4368BFA61F4E8C8F00B1A0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4368BFA51F4E8C8F00B1A0FF /* ZPMagnetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4368BFA71F4E8C8F00B1A0FF /* ZPMagnetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4368BFBF1F4E8CA300B1A0FF /* ZPMagnet */,
+				4368BFAB1F4E8C8F00B1A0FF /* AppDelegate.h */,
+				4368BFAC1F4E8C8F00B1A0FF /* AppDelegate.m */,
+				4368BFAE1F4E8C8F00B1A0FF /* ViewController.h */,
+				4368BFAF1F4E8C8F00B1A0FF /* ViewController.m */,
+				4368BFB11F4E8C8F00B1A0FF /* Main.storyboard */,
+				4368BFB41F4E8C8F00B1A0FF /* Assets.xcassets */,
+				4368BFB61F4E8C8F00B1A0FF /* LaunchScreen.storyboard */,
+				4368BFB91F4E8C8F00B1A0FF /* Info.plist */,
+				4368BFA81F4E8C8F00B1A0FF /* Supporting Files */,
+			);
+			path = ZPMagnetDemo;
+			sourceTree = "<group>";
+		};
+		4368BFA81F4E8C8F00B1A0FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4368BFA91F4E8C8F00B1A0FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4368BFBF1F4E8CA300B1A0FF /* ZPMagnet */ = {
+			isa = PBXGroup;
+			children = (
+				4368BFC01F4E8CBE00B1A0FF /* ZPMagnetItem.h */,
+				4368BFC11F4E8CBE00B1A0FF /* ZPMagnetItem.m */,
+				4368BFC31F4E934D00B1A0FF /* ZPMagnetView.h */,
+				4368BFC41F4E934D00B1A0FF /* ZPMagnetView.m */,
+			);
+			path = ZPMagnet;
+			sourceTree = "<group>";
+		};
+		6FD54DC5402CDCA14572B6A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE29E1AADC7925C73A328F /* libPods-ZPMagnetDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A80792F3299450F3838B232 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A4CD1F7124EA64721D94111 /* Pods-ZPMagnetDemo.debug.xcconfig */,
+				E44D6C85C4B5F194A84B68E6 /* Pods-ZPMagnetDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4368BFA41F4E8C8F00B1A0FF /* ZPMagnetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4368BFBC1F4E8C8F00B1A0FF /* Build configuration list for PBXNativeTarget "ZPMagnetDemo" */;
+			buildPhases = (
+				5D7D96D127434F49BBB552F5 /* [CP] Check Pods Manifest.lock */,
+				4368BFA11F4E8C8F00B1A0FF /* Sources */,
+				4368BFA21F4E8C8F00B1A0FF /* Frameworks */,
+				4368BFA31F4E8C8F00B1A0FF /* Resources */,
+				01E4ABB89D593D63E43EAF86 /* [CP] Embed Pods Frameworks */,
+				25BE137CFF678CBC181751A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPMagnetDemo;
+			productName = ZPMagnetDemo;
+			productReference = 4368BFA51F4E8C8F00B1A0FF /* ZPMagnetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4368BF9D1F4E8C8F00B1A0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵攀";
+				TargetAttributes = {
+					4368BFA41F4E8C8F00B1A0FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 98JVT5MHZQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4368BFA01F4E8C8F00B1A0FF /* Build configuration list for PBXProject "ZPMagnetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4368BF9C1F4E8C8F00B1A0FF;
+			productRefGroup = 4368BFA61F4E8C8F00B1A0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4368BFA41F4E8C8F00B1A0FF /* ZPMagnetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4368BFA31F4E8C8F00B1A0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4368BFB81F4E8C8F00B1A0FF /* LaunchScreen.storyboard in Resources */,
+				4368BFB51F4E8C8F00B1A0FF /* Assets.xcassets in Resources */,
+				4368BFB31F4E8C8F00B1A0FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E4ABB89D593D63E43EAF86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPMagnetDemo/Pods-ZPMagnetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BE137CFF678CBC181751A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPMagnetDemo/Pods-ZPMagnetDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7D96D127434F49BBB552F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4368BFA11F4E8C8F00B1A0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4368BFC51F4E934D00B1A0FF /* ZPMagnetView.m in Sources */,
+				4368BFB01F4E8C8F00B1A0FF /* ViewController.m in Sources */,
+				4368BFAD1F4E8C8F00B1A0FF /* AppDelegate.m in Sources */,
+				4368BFC21F4E8CBE00B1A0FF /* ZPMagnetItem.m in Sources */,
+				4368BFAA1F4E8C8F00B1A0FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4368BFB11F4E8C8F00B1A0FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4368BFB21F4E8C8F00B1A0FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4368BFB61F4E8C8F00B1A0FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4368BFB71F4E8C8F00B1A0FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4368BFBA1F4E8C8F00B1A0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4368BFBB1F4E8C8F00B1A0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4368BFBD1F4E8C8F00B1A0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4CD1F7124EA64721D94111 /* Pods-ZPMagnetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98JVT5MHZQ;
+				INFOPLIST_FILE = ZPMagnetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yueruwang.ZPMagnetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4368BFBE1F4E8C8F00B1A0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44D6C85C4B5F194A84B68E6 /* Pods-ZPMagnetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98JVT5MHZQ;
+				INFOPLIST_FILE = ZPMagnetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yueruwang.ZPMagnetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4368BFA01F4E8C8F00B1A0FF /* Build configuration list for PBXProject "ZPMagnetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4368BFBA1F4E8C8F00B1A0FF /* Debug */,
+				4368BFBB1F4E8C8F00B1A0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4368BFBC1F4E8C8F00B1A0FF /* Build configuration list for PBXNativeTarget "ZPMagnetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4368BFBD1F4E8C8F00B1A0FF /* Debug */,
+				4368BFBE1F4E8C8F00B1A0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4368BF9D1F4E8C8F00B1A0FF /* Project object */;
+}
